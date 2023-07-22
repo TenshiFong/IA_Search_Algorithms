@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Sriracha", cursive;
+}
+
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    83deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(55, 55, 112, 1) 42%,
+    rgba(64, 167, 187, 1) 100%
+  );
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3%;
+  padding: 5px 15px;
+  /* border: 1px solid red; */
+  /* background: rgba(64, 166, 187, 0.452); */
+}
+
+.navbar a {
+  text-decoration: none;
+}
+.pp-h1 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.Sec-1 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  background: rgb(16, 44, 60) url(ing/ajedrez.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.Sec-1 H1 {
+  font-size: 75px;
+  text-align: center;
+}
+
+.Sec-btn {
+  width: auto;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background: rgba(56, 97, 106, 0.668);
+  /* border: 1px solid red; */
+  padding: 10px 25px;
+}
+.btn_main_style {
+  width: 500px;
+  text-align: center;
+  font-size: 35px;
+  text-decoration: none;
+  color: #ffffff;
+  margin: 10px;
+  padding: 10px 0px;
+}
+
+.bm_style_1 {
+  background: rgba(64, 166, 187, 0.452);
+}
+
+.bm_style_2 {
+  background: rgb(27, 148, 69, 0.552);
+}
+
+.bm_style_3 {
+  background: rgb(148, 27, 27, 0.7);
+}
+
+#Tabla {
+  margin: 1%;
+  background-color: rgb(0, 0, 0);
+  height: 805px;
+  width: 805px;
+  display: grid;
+  grid-template-columns: repeat(8, 100px);
+  grid-template-rows: repeat(8, 100px);
+  padding: 2px;
+}
+
+#Tabla .c1 {
+  background: rgb(255, 255, 255);
+  border: none;
+}
+
+#Tabla .c2 {
+  background: rgb(68, 175, 233);
+  border: none;
+}
+.button-style {
+  font-size: 26px;
+  padding: 5px 20px;
+  background: rgb(27, 148, 148);
+  color: rgb(255, 255, 255);
+  margin: 5px 1px;
+}
+
+#Tabla .Dama {
+  background-image: url(ing/Dama.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.efecto {
+  filter: opacity(50%);
+}
